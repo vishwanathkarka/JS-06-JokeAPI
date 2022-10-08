@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #686DE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container{
+    background-color: white;
+    width:700px;
+    height:350px;
+    border-radius: 10px;
+
+}
+.subHeading{
+    color: black;
+    opacity: 0.5;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 50px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#joke{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:90px;
+
+}
+
+#jokeButton{
+    text-align: center;
+    display: block;
+   margin: auto;
+  background-color: #9F67E0;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10px;
+ margin: 50px auto;
+ letter-spacing: 2px;
+ cursor: pointer;
+}
+#jokeButton:hover{
+    background-color: #9f67e0d7;
+}
